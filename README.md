@@ -1,24 +1,24 @@
-# README
+# Earth Paints
+Earth Paints is an app to discover images that Google Earth has taken. It amazes me that the earth from afar resembles what artists emotionally strive to emulate. Incorporates a search bar where users can search by Country with the caveat they aren't all represented.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This App has two Github Repositories. This one is for the Rails API backend. The other one is for the React frontend (link below in instructions).
 
-Things you may want to cover:
+## Instructions
+To run this app:
 
-* Ruby version
+PART ONE
 
-* System dependencies
+Clone this repo, then run 'bundle install'.
 
-* Configuration
+Run rails db:create, rails db:migrate and rails db:seed to seed the database.
 
-* Database creation
+After the database is set up, run 'rails s' in terminal to start the rails server.
 
-* Database initialization
+PART TWO
 
-* How to run the test suite
+Go to https://github.com/cynthiaeddy/google-earth-client and follow the instructions to run the Earth Paints frontend.
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+## Built with
+• Rails <br/>
+• Deployed with Heroku

@@ -21,4 +21,4 @@ Go to https://github.com/cynthiaeddy/google-earth-client and follow the instruct
 
 ## Built with
 • Rails <br/>
-• Deployed with Heroku
+• Deployed on Heroku
